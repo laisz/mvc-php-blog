@@ -1,0 +1,182 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-family: century gothic;
+}
+
+.border-right-content{
+	border-right: 2px solid #5B758A;
+	padding-right: 30px;
+}
+
+
+.mycontainer{
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.mycontainer::before,
+.mycontainer::after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+.myrow{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.mycol100{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+
+.mycol50{
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mycol33{
+	width: 33.33%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mycol25{
+	width: 25%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.incontent{
+
+}
+
+.textjustify{
+	text-align: justify;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.fontcolor{
+	color: #5B758A;
+}
+
+.m-top-bottom{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.headerinside{
+	position: fixed;
+	/* left: 0;  */
+	/* right: 0; */
+	/* top: 0;   */
+	
+	top: 0%;
+	width: 100%;
+	z-index: +999;	
+	
+	
+	/* Using z-index is Must.. */
+	/* here, i'm using css like: position: fixed; top: 0%; width: 100%;
+		That would've produce the same result..!! */
+	/* here, i could've use css like: position: fixed; left: 0; right: 0; top: 0; */
+}
+
+.headerbg{
+	background: #5B758A;
+}
+
+.blankspace{
+	margin-bottom: 120px;
+}
+
+.contentbg{
+	background: #E5F3FF;
+}
+
+.footerbg{
+	background: #5B758A;
+}
+
+.menu{
+	text-align: right;
+	display: inline-block;
+	float: right;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 45px 0px 0px;
+}
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 14px 7px 14px;
+	color: #fff;
+	transition: 1s;
+}
+
+.menu ul li a:hover{
+
+	background: #E5F3FF;
+	color: #5B758A;
+	border-bottom: 5px solid #fff;
+	border-radius: 0px 0px 8px 8px;
+}
+
+
+	/******************************
+
+	Instead of giving a space or using 
+	&nbsp before Menu Name, 
+	i could have done some Css like this: 
+	[ .menu ul li a{ position: relative;} 
+	and .menu ul li a::before{ position: absolute; left: ; top/bottom: ;} 
+	to positioning the font awesome font
+ 
+	********************************/
+.menu ul li a::before{	
+	content: "\f107";
+	font-family: fontAwesome;
+}
+
+.logo{
+	display: inline-block;
+	font-family: Agency FB;
+	font-size: 30px;
+	float: left;
+}
+.logo p{
+	
+}
+
+.mycol25 .icon{
+	font-size: 50px;
+}
+
+

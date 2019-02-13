@@ -1,0 +1,10 @@
+
+Login As Admin:
+
+UserName: admin
+Password: rangpur
+
+here in root directory there is a db_mvc_pat.zip
+Inside zip there is a sql file 
+name 'db_mvc_pat' use this as MVC BLOG DATABASE
+

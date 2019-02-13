@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+.mycontainer{
+	max-height: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.mycontainer:before,
+.mycontainer:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.m-top-bottom{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.myrow{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.mycol100{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mycol50{
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+
+.mycol33{
+	width: 33.33%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+
+
+
